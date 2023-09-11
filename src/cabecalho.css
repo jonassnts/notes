@@ -1,0 +1,30 @@
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .navbar {
+    background-color: #F0C322;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+
+  .search-bar {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    width: 300px;
+    font-size: 16px;
+  }
+

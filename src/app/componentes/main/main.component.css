@@ -1,0 +1,42 @@
+.center{
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sem__notas {
+  font-family: Inter;
+  font-size: 28px;
+  color: #808080;
+
+}
+
+
+.lightbulb {
+  height: 240px;
+  width: 240px;
+  filter: invert(55%) sepia(7%) saturate(13%) hue-rotate(33deg) brightness(89%) contrast(89%);
+}
+
+.notas {
+  background: white;
+  height: 50px;
+  width: 520px;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-family: Inter;
+  text-align: center;
+}
+
+.lapis {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: left;
+  margin-left: 35px;
+  margin-top: 12px;
+}
+
