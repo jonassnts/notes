@@ -1,0 +1,25 @@
+.criarNota {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.inputNota {
+  background: white;
+  height: 50px;
+  width: 520px;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-family: Inter;
+  display: flex;
+  align-items: center;
+  margin-bottom: 750px;
+}
+
+::placeholder {
+  border-image: url(../notas/Lapis.svg);
+  text-align: center;
+  color: black;
+  font-weight: 600;
+}

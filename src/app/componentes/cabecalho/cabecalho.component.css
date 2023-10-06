@@ -30,10 +30,14 @@
 
 }
 
+.apps__class {
+  weight: 35px;
+  height: 35px;
+}
 
 .gear__class {
-  weight: 40px;
-  height: 40px;
+  weight: 35px;
+  height: 35px;
 }
 
 ::placeholder {

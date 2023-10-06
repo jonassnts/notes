@@ -1,17 +1,18 @@
 import { Component, Input } from '@angular/core';
-import { Notas } from '../notas';
+import { Nota } from './nota';
+
 
 @Component({
   selector: 'app-notas',
   templateUrl: './notas.component.html',
   styleUrls: ['./notas.component.css']
 })
-export class notasComponent {
+export class NotasComponent {
 @Input() notas:Nota = {
   id: 0,
-  titulo: "AAAAA",
-  conteudo: "TESTE",
-  tipo: "tipo1"
+  titulo: "",
+  conteudo: "",
+  tipo: ""
 }
 tamanhoNota(): string {
   if(this.notas.conteudo.length >= 150){
@@ -19,5 +20,7 @@ tamanhoNota(): string {
   }
   return 'nota-p'
 }
+
+
 
 }

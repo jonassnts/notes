@@ -1,1 +1,10 @@
+<div class="criarNota">
+  <form class="nota" data-form>
+    <div class="containerNota">
+      <label class="labelNota" for="nome"></label>
+      <input name="nome" [(ngModel)]="nota.conteudo" id="pesquisar" class="inputNota" type="text"  placeholder="➕ Adicionar uma nova nota...">
+      <button (click)="criarNota()">Criar Nota</button>
+    </div>
+  </form>
+</div>
 

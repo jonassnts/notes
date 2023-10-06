@@ -11,6 +11,7 @@
   font-family: Inter;
   font-size: 28px;
   color: #808080;
+  margin-bottom: 1500px;
 
 }
 
@@ -28,7 +29,9 @@
   border-radius: 10px;
   border: 1px solid black;
   font-family: Inter;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  
 }
 
 .lapis {
@@ -36,7 +39,7 @@
   width: 20px;
   display: flex;
   align-items: left;
-  margin-left: 35px;
-  margin-top: 12px;
+  margin-right: 20px;
+  margin-left: 15px;
 }
 

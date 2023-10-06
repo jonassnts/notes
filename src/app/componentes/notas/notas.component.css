@@ -1,0 +1,16 @@
+.tipo1 {
+  background-color: white;
+  color: black;
+  /* margin-top: -600px; */
+  font-family: 'Inter';
+  width: 200px;
+  border-radius: 10px;
+  /* margin-left: 70px; */
+  border: 1px solid black;
+  font-size: 13px;
+  text-align: center;
+}
+
+#notas7 {
+  align-items: center;
+}
